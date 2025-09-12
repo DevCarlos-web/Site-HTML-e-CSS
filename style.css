@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    height: 44px;
+    margin: 40px 0px 60px 80px;
+
+}
+
+.menu-nav {
+    margin-left: 23px;
+    text-decoration: none;
+    color: #17233D;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu-nav:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #4CB538;
+}
+
+.buton-nav {
+    margin-left: 23px;
+    color: #FFFFFF;
+    background-color: #4CB538;
+    border: none;
+    width: 124px;
+    height: 51px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.buton-nav:hover {
+    background-color: #227d10;
+}
+
+.img-main {
+    display: inline-block;
+    margin-left: 180px;
+}
+
+section {
+    margin-right: 180px;
+    width: 500px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 62px;
+    color: #161A49;
+    line-height: 82px;
+    font-weight: bold;
+}
+
+p {
+    width: 420px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+a {
+    color: #227d10;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-explore {
+    background-color: #227d10;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    border: none;
+    text-align: center;
+    width: 180px;
+    height: 70px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 720px)   {
+    
+    main {
+        display: block;
+        height: 100vh;
+    }
+
+    .img-main {
+        width: 600px;
+        height: auto;
+        display: block;
+        margin-left: 40px;
+        padding-top: 80px;      
+    }
+    section {
+        width: 100vw;
+        height: 50%;
+        position: relative;
+        padding-top: 60px;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    p {
+        text-align: center;  
+        margin: 60px  0;
+        margin-left: 126px; 
+    }
+
+
+    header {
+        display: none;
+    }
+
+    .button-explore {
+        margin-left: 245px;
+    }
+}
